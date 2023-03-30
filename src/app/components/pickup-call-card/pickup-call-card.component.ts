@@ -22,6 +22,8 @@ export class PickupCallCardComponent  implements OnInit {
   createdAt!: string;
   @Input()
   notes!: string;
+  @Input()
+  value!: string;
 
   constructor() { }
 
